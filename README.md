@@ -1,1 +1,5 @@
-# readme_generation
+# Experimentation on Multi-Task Representation Learning in Constrained Linear Contextual Bandits
+## Synthetic Data Experiments (varying alpha)
+### In the Synthetic directory, we evaluate our methods through experiments with synthetic data. You can test different alpha parameter values by opening and running alpha.ipynb in the Alpha folder. Modify the alpha parameter to get experimental results for different alpha values (e.g., 0.3, 0.5, 0.7). Create separate folders with the following names: Alpha = 0.3, Alpha = 0.5, and Alpha = 0.7. Save the generated results for each alpha value in the appropriate folders. After generating these results, use the plot.ipynb file to visualize our plots. 
+## Synthetic Data Experiments (compare with benchmark)
+### The Compare with Benchmark directory contains comparisons to benchmarks with different variables. You can test different parameters (d, T) by opening and running Compare.ipynb in the Compare with Benchmark folder. Modify the parameters to get experimental results for different combination parameters. For each parameter combination, create separate folders with the following names: Dimension = 100, Dimension = 125, and Dimension = 150. Save the results for each set of parameters in the appropriate folders. Then, run the plot.ipynb file to create comparative plots. 
